@@ -1,0 +1,6 @@
+{
+  "name": "SnapTask",
+  "description": "Smart on-device screenshot task extractor and reminder manager with full privacy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

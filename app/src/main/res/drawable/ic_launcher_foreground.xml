@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera/Screenshot Viewfinder Crop Corners (Cyan accent #38BDF8) -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M28,36 L28,28 L36,28" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M72,28 L80,28 L80,36" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M28,72 L28,80 L36,80" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M72,80 L80,80 L80,72" />
+
+    <!-- Central Task Card (Solid soft card #334155) -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M37,34 h34 c3.3,0 6,2.7 6,6 v28 c0,3.3 -2.7,6 -6,6 h-34 c-3.3,0 -6,-2.7 -6,-6 v-28 c0,-3.3 2.7,-6 6,-6 z" />
+
+    <!-- Checkmark Badge (#6366F1 / #818CF8) -->
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M43,44 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M45,44 L46.5,45.5 L49,42.5" />
+
+    <!-- Task text lines -->
+    <path
+        android:strokeColor="#F8FAFC"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M55,44 L69,44" />
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M44,54 L69,54" />
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M44,62 L61,62" />
+</vector>
