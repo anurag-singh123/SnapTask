@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" height="620">
+  <defs>
+    <linearGradient id="aiCanvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="indigoBtn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="artPreview" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="50%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="aiPhoneShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="620" rx="24" fill="url(#aiCanvasBg)"/>
+
+  <!-- Section Header -->
+  <text x="480" y="38" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#A5B4FC" letter-spacing="1.5">
+    GEMINI AI STUDIO — MULTI-TURN CHAT, GOOGLE SEARCH GROUNDING &amp; IMAGE STUDIO
+  </text>
+
+  <!-- ==================== LEFT PHONE: AI CHAT & SEARCH GROUNDING ==================== -->
+  <g transform="translate(80, 62)" filter="url(#aiPhoneShadow)">
+    <rect x="0" y="0" width="360" height="528" rx="32" fill="#0B1120" stroke="#4F46E5" stroke-width="3"/>
+    <rect x="12" y="12" width="336" height="504" rx="24" fill="#0F172A"/>
+
+    <!-- Top Tab Row -->
+    <rect x="24" y="24" width="312" height="36" rx="10" fill="#1E293B"/>
+    <rect x="28" y="28" width="152" height="28" rx="8" fill="url(#indigoBtn)"/>
+    <text x="104" y="46" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">✨ AI Chat &amp; Search</text>
+    <text x="256" y="46" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#94A3B8">🎨 Image Studio</text>
+
+    <!-- Model Selector Chips -->
+    <g transform="translate(24, 70)">
+      <rect x="0" y="0" width="106" height="26" rx="13" fill="#312E81" stroke="#818CF8" stroke-width="1.2"/>
+      <text x="53" y="17" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#E0E7FF">3.8 Flash (Search)</text>
+
+      <rect x="112" y="0" width="98" height="26" rx="13" fill="#1E293B"/>
+      <text x="161" y="17" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#94A3B8">4 Argon (Deep)</text>
+
+      <rect x="216" y="0" width="96" height="26" rx="13" fill="#1E293B"/>
+      <text x="264" y="17" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#94A3B8">3.5 Flash-Lite</text>
+    </g>
+
+    <!-- Google Search Grounding Banner -->
+    <g transform="translate(24, 104)">
+      <rect x="0" y="0" width="312" height="32" rx="8" fill="#1E1B4B" stroke="#4338CA" stroke-width="1"/>
+      <text x="14" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#C7D2FE">🌐 Google Search Grounding Enabled</text>
+      <rect x="268" y="7" width="34" height="18" rx="9" fill="#14B8A6"/>
+      <circle cx="293" cy="16" r="7" fill="#FFFFFF"/>
+    </g>
+
+    <!-- User Message Bubble -->
+    <g transform="translate(64, 148)">
+      <rect x="0" y="0" width="272" height="46" rx="14" fill="#4F46E5"/>
+      <text x="14" y="20" font-family="system-ui, sans-serif" font-size="11" fill="#FFFFFF">Help me renew my passport before my trip</text>
+      <text x="14" y="36" font-family="system-ui, sans-serif" font-size="11" fill="#E0E7FF">next month and break it into tasks.</text>
+    </g>
+
+    <!-- AI Streaming Response Bubble with Citations -->
+    <g transform="translate(24, 204)">
+      <rect x="0" y="0" width="304" height="196" rx="16" fill="#1E293B" stroke="#6366F1" stroke-width="1.2"/>
+      <rect x="12" y="10" width="184" height="18" rx="6" fill="#312E81"/>
+      <text x="104" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#A5B4FC">Gemini 3.8 Flash • Google Search</text>
+
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">Action Plan (Expedited Renewal):</text>
+      <text x="14" y="62" font-family="system-ui, sans-serif" font-size="11" fill="#E2E8F0">1. Complete Form DS-82 online or print</text>
+      <text x="14" y="78" font-family="system-ui, sans-serif" font-size="11" fill="#E2E8F0">2. Take 2x2" compliant passport photo</text>
+      <text x="14" y="94" font-family="system-ui, sans-serif" font-size="11" fill="#E2E8F0">3. Pay $130 fee + $60 expedited service</text>
+
+      <!-- Search Query Badge -->
+      <text x="14" y="116" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#94A3B8">🔎 Search: "expedited passport renewal steps"</text>
+
+      <!-- Web Source Citation Chips -->
+      <rect x="14" y="124" width="136" height="22" rx="6" fill="#0F172A" stroke="#38BDF8" stroke-width="1"/>
+      <text x="82" y="139" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#7DD3FC">🔗 travel.state.gov ↗</text>
+
+      <rect x="158" y="124" width="132" height="22" rx="6" fill="#0F172A" stroke="#38BDF8" stroke-width="1"/>
+      <text x="224" y="139" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#7DD3FC">🔗 usps.com/passport ↗</text>
+
+      <!-- Save to Tasks Action -->
+      <rect x="14" y="156" width="144" height="28" rx="8" fill="#134E4A"/>
+      <text x="86" y="174" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#5EEAD4">+ Save to SnapTask</text>
+    </g>
+
+    <!-- Chat Input Field -->
+    <g transform="translate(24, 412)">
+      <rect x="0" y="0" width="260" height="38" rx="19" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+      <text x="18" y="24" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Ask Gemini or search the web...</text>
+      <circle cx="292" cy="19" r="19" fill="url(#indigoBtn)"/>
+      <text x="292" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">➤</text>
+    </g>
+
+    <!-- Bottom Nav -->
+    <rect x="12" y="458" width="336" height="58" rx="20" fill="#1E293B"/>
+    <g transform="translate(28, 468)">
+      <text x="34" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">✓</text>
+      <text x="34" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Tasks</text>
+
+      <text x="114" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">📥</text>
+      <text x="114" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Inbox</text>
+
+      <rect x="166" y="2" width="56" height="24" rx="12" fill="#312E81"/>
+      <text x="194" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#A5B4FC">✨ AI</text>
+      <text x="194" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#A5B4FC">AI Studio</text>
+
+      <text x="274" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">⚙️</text>
+      <text x="274" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Settings</text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT PHONE: NANO BANANA 2.1 IMAGE STUDIO ==================== -->
+  <g transform="translate(520, 62)" filter="url(#aiPhoneShadow)">
+    <rect x="0" y="0" width="360" height="528" rx="32" fill="#0B1120" stroke="#14B8A6" stroke-width="3"/>
+    <rect x="12" y="12" width="336" height="504" rx="24" fill="#0F172A"/>
+
+    <!-- Top Tab Row -->
+    <rect x="24" y="24" width="312" height="36" rx="10" fill="#1E293B"/>
+    <text x="104" y="46" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#94A3B8">✨ AI Chat &amp; Search</text>
+    <rect x="180" y="28" width="152" height="28" rx="8" fill="#14B8A6"/>
+    <text x="256" y="46" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#042F2E">🎨 Image Studio</text>
+
+    <!-- Model Header Card -->
+    <g transform="translate(24, 70)">
+      <rect x="0" y="0" width="312" height="44" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="20" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#5EEAD4">Gemini Nano Banana 2.1</text>
+      <text x="14" y="35" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Create new visual boards or edit photos with prompts</text>
+    </g>
+
+    <!-- Source Image Picker / Edit Mode -->
+    <g transform="translate(24, 124)">
+      <rect x="0" y="0" width="148" height="32" rx="8" fill="#1E293B" stroke="#14B8A6" stroke-width="1"/>
+      <text x="74" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#5EEAD4">🖼️ Pick Photo to Edit</text>
+
+      <rect x="160" y="0" width="152" height="32" rx="8" fill="#1E293B" stroke="#6366F1" stroke-width="1"/>
+      <text x="236" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#A5B4FC">✨ Text-to-Image Mode</text>
+    </g>
+
+    <!-- Prompt Box -->
+    <g transform="translate(24, 166)">
+      <rect x="0" y="0" width="312" height="58" rx="12" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+      <text x="12" y="20" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#94A3B8">PROMPT</text>
+      <text x="12" y="36" font-family="system-ui, sans-serif" font-size="11" fill="#F8FAFC">"Minimalist weekly sprint checklist poster with</text>
+      <text x="12" y="50" font-family="system-ui, sans-serif" font-size="11" fill="#F8FAFC">clean typography and neon teal icons"</text>
+    </g>
+
+    <!-- Generated Image Preview Canvas -->
+    <g transform="translate(24, 234)">
+      <rect x="0" y="0" width="312" height="162" rx="16" fill="url(#artPreview)"/>
+      <rect x="20" y="18" width="272" height="126" rx="12" fill="#0F172A" opacity="0.82"/>
+      <text x="156" y="46" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#5EEAD4">WEEKLY SPRINT BOARD</text>
+      <text x="48" y="72" font-family="monospace" font-size="11" fill="#F8FAFC">[✓] Finalize UI Mockups</text>
+      <text x="48" y="94" font-family="monospace" font-size="11" fill="#F8FAFC">[ ] Ship v2.1 Release Friday</text>
+      <text x="48" y="116" font-family="monospace" font-size="11" fill="#F8FAFC">[ ] Review QA Metrics</text>
+      <rect x="212" y="114" width="68" height="20" rx="6" fill="#14B8A6"/>
+      <text x="246" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#042F2E">GENERATED</text>
+    </g>
+
+    <!-- Action Buttons Below Generated Image -->
+    <g transform="translate(24, 408)">
+      <rect x="0" y="0" width="148" height="38" rx="10" fill="#312E81" stroke="#6366F1" stroke-width="1"/>
+      <text x="74" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#E0E7FF">🪄 Use as Edit Input</text>
+
+      <rect x="160" y="0" width="152" height="38" rx="10" fill="#14B8A6"/>
+      <text x="236" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#042F2E">🔍 Scan into Tasks</text>
+    </g>
+
+    <!-- Bottom Nav -->
+    <rect x="12" y="458" width="336" height="58" rx="20" fill="#1E293B"/>
+    <g transform="translate(28, 468)">
+      <text x="34" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">✓</text>
+      <text x="34" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Tasks</text>
+
+      <text x="114" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">📥</text>
+      <text x="114" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Inbox</text>
+
+      <rect x="166" y="2" width="56" height="24" rx="12" fill="#134E4A"/>
+      <text x="194" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#5EEAD4">✨ AI</text>
+      <text x="194" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#5EEAD4">AI Studio</text>
+
+      <text x="274" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">⚙️</text>
+      <text x="274" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Settings</text>
+    </g>
+  </g>
+</svg>

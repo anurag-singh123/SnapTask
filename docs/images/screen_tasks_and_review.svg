@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" height="620">
+  <defs>
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <filter id="phoneShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="620" rx="24" fill="url(#canvasBg)"/>
+
+  <!-- Section Header -->
+  <text x="480" y="38" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#94A3B8" letter-spacing="1.5">
+    CORE WORKFLOW — TASKS DASHBOARD &amp; SCREENSHOT OCR REVIEW
+  </text>
+
+  <!-- ==================== LEFT PHONE: TASKS SCREEN ==================== -->
+  <g transform="translate(80, 62)" filter="url(#phoneShadow)">
+    <!-- Phone Body -->
+    <rect x="0" y="0" width="360" height="528" rx="32" fill="#0B1120" stroke="#334155" stroke-width="3"/>
+    <!-- Screen Content -->
+    <rect x="12" y="12" width="336" height="504" rx="24" fill="#0F172A"/>
+
+    <!-- Top App Bar -->
+    <text x="32" y="48" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#F8FAFC">SnapTask</text>
+    <rect x="242" y="28" width="90" height="26" rx="13" fill="#134E4A"/>
+    <text x="287" y="45" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#5EEAD4">4 Active</text>
+
+    <!-- Search Bar -->
+    <rect x="28" y="64" width="304" height="38" rx="19" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="48" y="88" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">🔍  Search tasks or OCR notes...</text>
+
+    <!-- Filter Tabs (Today | Upcoming | No Date | Done) -->
+    <g transform="translate(28, 114)">
+      <rect x="0" y="0" width="68" height="30" rx="15" fill="#14B8A6"/>
+      <text x="34" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#042F2E">Today (2)</text>
+
+      <rect x="76" y="0" width="88" height="30" rx="15" fill="#1E293B"/>
+      <text x="120" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#CBD5E1">Upcoming (2)</text>
+
+      <rect x="172" y="0" width="74" height="30" rx="15" fill="#1E293B"/>
+      <text x="209" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#CBD5E1">No Date</text>
+
+      <rect x="254" y="0" width="50" height="30" rx="15" fill="#1E293B"/>
+      <text x="279" y="20" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#CBD5E1">Done</text>
+    </g>
+
+    <!-- Task Card 1 (Pinned) -->
+    <g transform="translate(28, 158)">
+      <rect x="0" y="0" width="304" height="84" rx="16" fill="#1E293B" stroke="#14B8A6" stroke-width="1.2"/>
+      <circle cx="24" cy="30" r="10" fill="none" stroke="#2DD4BF" stroke-width="2.2"/>
+      <text x="44" y="28" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#F8FAFC">Call mom about family dinner</text>
+      <text x="280" y="28" font-family="system-ui, sans-serif" font-size="13" fill="#F59E0B">📌</text>
+      <text x="44" y="48" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">📞 +1 (555) 234-5678 • From Chat Screenshot</text>
+      <rect x="44" y="56" width="112" height="20" rx="6" fill="#134E4A"/>
+      <text x="100" y="70" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#5EEAD4">⏰ Today, 18:00</text>
+      <rect x="164" y="56" width="96" height="20" rx="6" fill="#312E81"/>
+      <text x="212" y="70" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#C7D2FE">🖼️ Screenshot #14</text>
+    </g>
+
+    <!-- Task Card 2 -->
+    <g transform="translate(28, 254)">
+      <rect x="0" y="0" width="304" height="80" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <circle cx="24" cy="30" r="10" fill="none" stroke="#94A3B8" stroke-width="2"/>
+      <text x="44" y="28" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#F8FAFC">Send Q4 financial report</text>
+      <text x="44" y="46" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">✉️ finance@acme.org • Extracted via ML Kit</text>
+      <rect x="44" y="54" width="106" height="20" rx="6" fill="#1E3A8A"/>
+      <text x="97" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#93C5FD">📅 Friday, 17:00</text>
+    </g>
+
+    <!-- Task Card 3 -->
+    <g transform="translate(28, 346)">
+      <rect x="0" y="0" width="304" height="74" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <circle cx="24" cy="28" r="10" fill="none" stroke="#94A3B8" stroke-width="2"/>
+      <text x="44" y="26" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#F8FAFC">Pay electricity bill</text>
+      <text x="44" y="44" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">🔗 portal.utility.example.com</text>
+      <rect x="44" y="50" width="96" height="18" rx="6" fill="#78350F"/>
+      <text x="92" y="63" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FCD34D">📅 Nov 15, 09:00</text>
+    </g>
+
+    <!-- FAB -->
+    <rect x="276" y="394" width="52" height="52" rx="16" fill="#14B8A6"/>
+    <text x="302" y="428" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#042F2E">+</text>
+
+    <!-- Bottom Navigation Bar -->
+    <rect x="12" y="458" width="336" height="58" rx="20" fill="#1E293B"/>
+    <g transform="translate(28, 468)">
+      <rect x="6" y="2" width="56" height="24" rx="12" fill="#134E4A"/>
+      <text x="34" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#5EEAD4">✓ Tasks</text>
+      <text x="34" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#5EEAD4">Tasks</text>
+
+      <text x="114" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">📥</text>
+      <text x="114" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Inbox (3)</text>
+
+      <text x="194" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">✨</text>
+      <text x="194" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">AI Studio</text>
+
+      <text x="274" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">⚙️</text>
+      <text x="274" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Settings</text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT PHONE: REVIEW SCREENSHOT ==================== -->
+  <g transform="translate(520, 62)" filter="url(#phoneShadow)">
+    <!-- Phone Body -->
+    <rect x="0" y="0" width="360" height="528" rx="32" fill="#0B1120" stroke="#334155" stroke-width="3"/>
+    <!-- Screen Content -->
+    <rect x="12" y="12" width="336" height="504" rx="24" fill="#0F172A"/>
+
+    <!-- Top Bar -->
+    <text x="32" y="46" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">←  Review Screenshot</text>
+    <rect x="246" y="28" width="84" height="24" rx="12" fill="#1E3A8A"/>
+    <text x="288" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#93C5FD">TYPE: LIST</text>
+
+    <!-- Screenshot Preview Card -->
+    <g transform="translate(28, 62)">
+      <rect x="0" y="0" width="304" height="112" rx="14" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+      <rect x="12" y="12" width="92" height="88" rx="8" fill="#0F172A" stroke="#14B8A6" stroke-width="1"/>
+      <text x="58" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#5EEAD4">Screenshot</text>
+      <text x="58" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94A3B8">1080 × 2400</text>
+      <text x="58" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#38BDF8">🔍 Pinch Zoom</text>
+
+      <text x="116" y="28" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#94A3B8">EXTRACTED OCR TEXT (EDITABLE)</text>
+      <rect x="116" y="36" width="176" height="64" rx="8" fill="#0F172A"/>
+      <text x="124" y="52" font-family="monospace" font-size="10" fill="#E2E8F0">- buy organic milk</text>
+      <text x="124" y="68" font-family="monospace" font-size="10" fill="#E2E8F0">- pay electricity bill by 15th</text>
+      <text x="124" y="84" font-family="monospace" font-size="10" fill="#E2E8F0">- book dentist appointment</text>
+    </g>
+
+    <!-- Candidate Tasks Section Header -->
+    <text x="28" y="198" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#2DD4BF">
+      CANDIDATE TASKS DETECTED (3 SELECTED)
+    </text>
+
+    <!-- Candidate 1 -->
+    <g transform="translate(28, 210)">
+      <rect x="0" y="0" width="304" height="68" rx="14" fill="#1E293B" stroke="#14B8A6" stroke-width="1.2"/>
+      <rect x="14" y="22" width="22" height="22" rx="6" fill="#14B8A6"/>
+      <text x="25" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#042F2E">✓</text>
+      <text x="48" y="28" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">Buy organic milk</text>
+      <rect x="48" y="38" width="102" height="20" rx="6" fill="#0F172A"/>
+      <text x="99" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">+ Add Due Date</text>
+    </g>
+
+    <!-- Candidate 2 -->
+    <g transform="translate(28, 288)">
+      <rect x="0" y="0" width="304" height="68" rx="14" fill="#1E293B" stroke="#14B8A6" stroke-width="1.2"/>
+      <rect x="14" y="22" width="22" height="22" rx="6" fill="#14B8A6"/>
+      <text x="25" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#042F2E">✓</text>
+      <text x="48" y="28" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">Pay electricity bill</text>
+      <rect x="48" y="38" width="136" height="20" rx="6" fill="#134E4A"/>
+      <text x="116" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#5EEAD4">📅 Due: 15th • 09:00</text>
+    </g>
+
+    <!-- Candidate 3 -->
+    <g transform="translate(28, 366)">
+      <rect x="0" y="0" width="304" height="68" rx="14" fill="#1E293B" stroke="#14B8A6" stroke-width="1.2"/>
+      <rect x="14" y="22" width="22" height="22" rx="6" fill="#14B8A6"/>
+      <text x="25" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#042F2E">✓</text>
+      <text x="48" y="28" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">Book dentist appointment</text>
+      <rect x="48" y="38" width="102" height="20" rx="6" fill="#0F172A"/>
+      <text x="99" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">+ Add Due Date</text>
+    </g>
+
+    <!-- Bottom Action Buttons -->
+    <g transform="translate(28, 452)">
+      <rect x="0" y="0" width="110" height="44" rx="12" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+      <text x="55" y="27" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">Ignore</text>
+
+      <rect x="122" y="0" width="182" height="44" rx="12" fill="#14B8A6"/>
+      <text x="213" y="27" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#042F2E">✓ Save 3 Tasks</text>
+    </g>
+  </g>
+</svg>

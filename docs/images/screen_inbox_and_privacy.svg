@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" height="620">
+  <defs>
+    <linearGradient id="inboxBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <filter id="inboxShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="620" rx="24" fill="url(#inboxBg)"/>
+
+  <!-- Section Header -->
+  <text x="480" y="38" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#94A3B8" letter-spacing="1.5">
+    SCREENSHOT INBOX QUEUE &amp; PRIVACY / SECURITY CONTROLS
+  </text>
+
+  <!-- ==================== LEFT PHONE: SCREENSHOT INBOX ==================== -->
+  <g transform="translate(80, 62)" filter="url(#inboxShadow)">
+    <rect x="0" y="0" width="360" height="528" rx="32" fill="#0B1120" stroke="#334155" stroke-width="3"/>
+    <rect x="12" y="12" width="336" height="504" rx="24" fill="#0F172A"/>
+
+    <!-- Header -->
+    <text x="28" y="48" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#F8FAFC">Screenshot Inbox</text>
+    <rect x="220" y="28" width="112" height="28" rx="14" fill="#14B8A6"/>
+    <text x="276" y="46" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#042F2E">+ Import Image</text>
+
+    <!-- Grid Row 1 -->
+    <!-- Card 1: Processed -->
+    <g transform="translate(28, 70)">
+      <rect x="0" y="0" width="146" height="174" rx="14" fill="#1E293B" stroke="#14B8A6" stroke-width="1.2"/>
+      <rect x="10" y="10" width="126" height="96" rx="8" fill="#0F172A"/>
+      <text x="73" y="50" text-anchor="middle" font-family="monospace" font-size="9" fill="#CBD5E1">"Call mom tomorrow</text>
+      <text x="73" y="64" text-anchor="middle" font-family="monospace" font-size="9" fill="#CBD5E1">at 6pm for dinner"</text>
+      <rect x="10" y="114" width="76" height="18" rx="6" fill="#134E4A"/>
+      <text x="48" y="127" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#5EEAD4">PROCESSED</text>
+      <text x="10" y="148" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">Chat • 1 Task</text>
+      <text x="10" y="163" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">2 mins ago</text>
+    </g>
+
+    <!-- Card 2: Processed Checklist -->
+    <g transform="translate(186, 70)">
+      <rect x="0" y="0" width="146" height="174" rx="14" fill="#1E293B" stroke="#38BDF8" stroke-width="1.2"/>
+      <rect x="10" y="10" width="126" height="96" rx="8" fill="#0F172A"/>
+      <text x="73" y="44" text-anchor="middle" font-family="monospace" font-size="9" fill="#CBD5E1">- buy milk</text>
+      <text x="73" y="58" text-anchor="middle" font-family="monospace" font-size="9" fill="#CBD5E1">- pay bill by 15th</text>
+      <text x="73" y="72" text-anchor="middle" font-family="monospace" font-size="9" fill="#CBD5E1">- book dentist</text>
+      <rect x="10" y="114" width="76" height="18" rx="6" fill="#1E3A8A"/>
+      <text x="48" y="127" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#93C5FD">PROCESSED</text>
+      <text x="10" y="148" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">List • 3 Tasks</text>
+      <text x="10" y="163" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">14 mins ago</text>
+    </g>
+
+    <!-- Grid Row 2 -->
+    <!-- Card 3: Sensitive Filtered -->
+    <g transform="translate(28, 258)">
+      <rect x="0" y="0" width="146" height="174" rx="14" fill="#1E293B" stroke="#F59E0B" stroke-width="1.2"/>
+      <rect x="10" y="10" width="126" height="96" rx="8" fill="#0F172A"/>
+      <text x="73" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22">🛡️</text>
+      <text x="73" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FCD34D">OCR Text Redacted</text>
+      <rect x="10" y="114" width="76" height="18" rx="6" fill="#78350F"/>
+      <text x="48" y="127" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FCD34D">SENSITIVE</text>
+      <text x="10" y="148" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">OTP / Card Skipped</text>
+      <text x="10" y="163" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">1 hour ago</text>
+    </g>
+
+    <!-- Card 4: Reviewed -->
+    <g transform="translate(186, 258)">
+      <rect x="0" y="0" width="146" height="174" rx="14" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <rect x="10" y="10" width="126" height="96" rx="8" fill="#0F172A"/>
+      <text x="73" y="54" text-anchor="middle" font-family="monospace" font-size="9" fill="#94A3B8">"Send the report</text>
+      <text x="73" y="68" text-anchor="middle" font-family="monospace" font-size="9" fill="#94A3B8">by Friday"</text>
+      <rect x="10" y="114" width="72" height="18" rx="6" fill="#064E3B"/>
+      <text x="46" y="127" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#6EE7B7">REVIEWED</text>
+      <text x="10" y="148" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#CBD5E1">Saved to Tasks</text>
+      <text x="10" y="163" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">Yesterday</text>
+    </g>
+
+    <!-- Bottom Nav -->
+    <rect x="12" y="458" width="336" height="58" rx="20" fill="#1E293B"/>
+    <g transform="translate(28, 468)">
+      <text x="34" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">✓</text>
+      <text x="34" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Tasks</text>
+
+      <rect x="86" y="2" width="56" height="24" rx="12" fill="#134E4A"/>
+      <text x="114" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#5EEAD4">📥 2</text>
+      <text x="114" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#5EEAD4">Inbox</text>
+
+      <text x="194" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">✨</text>
+      <text x="194" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">AI Studio</text>
+
+      <text x="274" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">⚙️</text>
+      <text x="274" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Settings</text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT PHONE: PRIVACY & SETTINGS ==================== -->
+  <g transform="translate(520, 62)" filter="url(#inboxShadow)">
+    <rect x="0" y="0" width="360" height="528" rx="32" fill="#0B1120" stroke="#334155" stroke-width="3"/>
+    <rect x="12" y="12" width="336" height="504" rx="24" fill="#0F172A"/>
+
+    <!-- Header -->
+    <text x="28" y="48" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#F8FAFC">Settings &amp; Privacy</text>
+
+    <!-- Setting Item 1 -->
+    <g transform="translate(24, 68)">
+      <rect x="0" y="0" width="312" height="58" rx="14" fill="#1E293B"/>
+      <text x="16" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">Background Screenshot Detection</text>
+      <text x="16" y="42" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">WorkManager ContentUriTrigger + 15m sweep</text>
+      <rect x="262" y="19" width="36" height="20" rx="10" fill="#14B8A6"/>
+      <circle cx="288" cy="29" r="7" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Setting Item 2 -->
+    <g transform="translate(24, 136)">
+      <rect x="0" y="0" width="312" height="58" rx="14" fill="#1E293B"/>
+      <text x="16" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">Sensitive Content Shield</text>
+      <text x="16" y="42" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Skip OTPs, Luhn card numbers, CVVs &amp; passwords</text>
+      <rect x="262" y="19" width="36" height="20" rx="10" fill="#14B8A6"/>
+      <circle cx="288" cy="29" r="7" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Setting Item 3 -->
+    <g transform="translate(24, 204)">
+      <rect x="0" y="0" width="312" height="58" rx="14" fill="#1E293B"/>
+      <text x="16" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">Biometric App Lock</text>
+      <text x="16" y="42" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Require fingerprint / face unlock on launch</text>
+      <rect x="262" y="19" width="36" height="20" rx="10" fill="#14B8A6"/>
+      <circle cx="288" cy="29" r="7" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Setting Item 4 -->
+    <g transform="translate(24, 272)">
+      <rect x="0" y="0" width="312" height="58" rx="14" fill="#1E293B"/>
+      <text x="16" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC">Auto-Purge Raw OCR History</text>
+      <text x="16" y="42" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Automatically clear raw OCR text after 7 days</text>
+      <rect x="242" y="18" width="56" height="22" rx="8" fill="#134E4A"/>
+      <text x="270" y="33" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#5EEAD4">7 Days</text>
+    </g>
+
+    <!-- Export Buttons -->
+    <g transform="translate(24, 344)">
+      <rect x="0" y="0" width="150" height="42" rx="12" fill="#1E293B" stroke="#38BDF8" stroke-width="1"/>
+      <text x="75" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7DD3FC">📅 Export .ICS Calendar</text>
+
+      <rect x="162" y="0" width="150" height="42" rx="12" fill="#1E293B" stroke="#14B8A6" stroke-width="1"/>
+      <text x="237" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#5EEAD4">📄 Export Plain Text</text>
+    </g>
+
+    <!-- Default Reminder Time Pill -->
+    <g transform="translate(24, 398)">
+      <rect x="0" y="0" width="312" height="44" rx="12" fill="#1E293B"/>
+      <text x="16" y="27" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#CBD5E1">⏰ Default Morning Reminder Time</text>
+      <text x="296" y="27" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#5EEAD4">09:00 AM</text>
+    </g>
+
+    <!-- Bottom Nav -->
+    <rect x="12" y="458" width="336" height="58" rx="20" fill="#1E293B"/>
+    <g transform="translate(28, 468)">
+      <text x="34" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">✓</text>
+      <text x="34" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Tasks</text>
+
+      <text x="114" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">📥</text>
+      <text x="114" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Inbox</text>
+
+      <text x="194" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">✨</text>
+      <text x="194" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">AI Studio</text>
+
+      <rect x="246" y="2" width="56" height="24" rx="12" fill="#134E4A"/>
+      <text x="274" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#5EEAD4">⚙️</text>
+      <text x="274" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#5EEAD4">Settings</text>
+    </g>
+  </g>
+</svg>
